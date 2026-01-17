@@ -2,59 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>sheetsservice – YouTube API App</title>
+    <title>sheetsservice – YouTube API Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="sheetsservice is a YouTube Data API v3 application for managing and analyzing YouTube channel data.">
+    <meta name="description" content="sheetsservice is a YouTube Data API v3 application that allows authorized users to access and manage YouTube data securely.">
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.7; margin: 40px; background: #f9f9f9; }
-        h1, h2, h3 { color: #222; }
-        p { color: #444; }
-        ul { margin-left: 20px; }
-        footer { margin-top: 60px; font-size: 14px; color: #666; }
-        a { color: #0b57d0; text-decoration: none; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 40px;
+            line-height: 1.7;
+            color: #333;
+        }
+        h1, h2 {
+            color: #1a1a1a;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            margin-top: 60px;
+            font-size: 14px;
+            color: #666;
+        }
+        a {
+            color: #0b57d0;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
 
 <h1>sheetsservice</h1>
-<p><strong>sheetsservice</strong> is a web-based application built using the <strong>YouTube Data API v3</strong>. The app helps users securely access and manage YouTube-related data for analysis, automation, and channel-related operations.</p>
 
-<h2>Purpose of the Application</h2>
 <p>
-The primary goal of sheetsservice is to provide a simple and secure interface for interacting with YouTube data. 
-The application is designed for personal use, testing, and automation purposes such as retrieving channel information, managing video metadata, and accessing authorized YouTube account data.
+<strong>sheetsservice</strong> is a web-based application that integrates with the
+<strong>YouTube Data API v3</strong> to allow users to securely access and manage their
+YouTube account data after explicit authorization.
 </p>
 
-<h2>How sheetsservice Uses YouTube Data API</h2>
-<p>sheetsservice uses the official YouTube Data API v3 to:</p>
+<h2>Application Purpose</h2>
+<p>
+The purpose of sheetsservice is to provide a simple and reliable way for users to
+retrieve, view, and manage YouTube-related data such as channel information,
+video metadata, and other authorized resources. The application is intended for
+personal use, testing, automation, and data management purposes.
+</p>
+
+<h2>YouTube API Usage</h2>
+<p>sheetsservice uses the YouTube Data API v3 to:</p>
 <ul>
     <li>Authenticate users via Google OAuth 2.0</li>
-    <li>Access YouTube channel information with user permission</li>
-    <li>Read and manage YouTube account-related data</li>
-    <li>Perform authorized API requests on behalf of the user</li>
+    <li>Access YouTube channel and account information</li>
+    <li>Read and manage authorized YouTube data</li>
+    <li>Perform API requests strictly within granted permissions</li>
 </ul>
 
-<h2>User Data & Permissions</h2>
+<h2>User Data & Authorization</h2>
 <p>
-The application only requests permissions that are strictly necessary for its functionality.
-All access is performed through Google’s secure OAuth 2.0 system.
+All access to YouTube data is performed only after the user grants permission
+through Google’s official OAuth consent screen. sheetsservice only requests the
+minimum scopes required for its functionality.
 </p>
 
-<h2>Security</h2>
+<h2>Data Security</h2>
 <p>
-sheetsservice does not sell, rent, or misuse user data.
-All API tokens are stored securely and used only for the intended YouTube API operations.
+sheetsservice takes user privacy seriously. OAuth access tokens and refresh tokens
+are stored securely and are used only to perform authorized YouTube API requests.
+No user data is sold, shared, or misused.
 </p>
 
-<h2>Open Source & Hosting</h2>
+<h2>Hosting & Transparency</h2>
 <p>
-This application is hosted on GitHub Pages for transparency and ease of access.
+This application is hosted on GitHub Pages to ensure transparency and accessibility.
 The source code and documentation are maintained in the GitHub repository.
 </p>
 
 <h2>Contact</h2>
 <p>
-If you have questions or concerns about sheetsservice, please contact the developer via the GitHub repository.
+For questions, concerns, or support regarding sheetsservice, please contact the
+developer through the GitHub repository associated with this application.
 </p>
 
 <footer>
